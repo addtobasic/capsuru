@@ -30,9 +30,9 @@ void loop() {
     Keyboard.press(KEY_CAPS_LOCK);
     
    // モータを動かし物理的にキーを押す
-    robot.write(50, 50);
+    robot.write(75, 50);
     delay(2000);
-    robot.write(135, 50);
+    robot.write(120, 50);
     delay(2000);
   }
   
